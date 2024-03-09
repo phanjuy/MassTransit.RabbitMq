@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.Contracts", "Mess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{2B9DBFF9-D950-4A69-904F-810515CC9FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{85582A28-BC54-4A02-A34C-72E0348BFF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2B9DBFF9-D950-4A69-904F-810515CC9FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9DBFF9-D950-4A69-904F-810515CC9FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9DBFF9-D950-4A69-904F-810515CC9FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85582A28-BC54-4A02-A34C-72E0348BFF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85582A28-BC54-4A02-A34C-72E0348BFF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85582A28-BC54-4A02-A34C-72E0348BFF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85582A28-BC54-4A02-A34C-72E0348BFF99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
