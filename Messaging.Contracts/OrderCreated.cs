@@ -1,10 +1,12 @@
 ﻿namespace Messaging.Contracts;
 
 // Event message type
-public interface OrderCreated
+// https://masstransit.io/documentation/concepts/messages
+public record OrderCreated
 {
-    int Id { get; set; }
-    string ProductName { get; set; }
-    decimal Price { get; set; }
-    int Quantity { get; set; }
+    public int Id { get; init; }
+    public string ProductName { get; init; }
+    public decimal Price { get; init; }
+    public int Quantity { get; init; }
+
 }
